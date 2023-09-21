@@ -2,7 +2,7 @@
 
 GroupBy Retail
 - API version: 0.0
-  - Build date: 2023-09-21T09:40:02.999263865-04:00[America/Toronto]
+  - Build date: 2023-09-21T09:51:40.117075497-04:00[America/Toronto]
 
 GroupBy Retail API
 
