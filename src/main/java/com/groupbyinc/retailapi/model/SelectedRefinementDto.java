@@ -19,7 +19,6 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import com.groupbyinc.retailapi.model.ModelBoolean;
 import com.groupbyinc.retailapi.model.NavigationTypeDto;
 import java.io.IOException;
 import java.util.Arrays;
@@ -51,7 +50,7 @@ import com.groupbyinc.retailapi.JSON;
 /**
  * Refinement the shopper has selected for filtering.
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-09-20T17:52:51.787881444-04:00[America/Toronto]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-09-21T09:40:02.999263865-04:00[America/Toronto]")
 public class SelectedRefinementDto {
   public static final String SERIALIZED_NAME_NAVIGATION_NAME = "navigationName";
   @SerializedName(SERIALIZED_NAME_NAVIGATION_NAME)
@@ -75,11 +74,11 @@ public class SelectedRefinementDto {
 
   public static final String SERIALIZED_NAME_SOURCE = "source";
   @SerializedName(SERIALIZED_NAME_SOURCE)
-  private String source = null;
+  private String source;
 
   public static final String SERIALIZED_NAME_OR = "or";
   @SerializedName(SERIALIZED_NAME_OR)
-  private ModelBoolean or = null;
+  private Boolean or;
 
   public SelectedRefinementDto() {
   }
@@ -210,7 +209,7 @@ public class SelectedRefinementDto {
   }
 
 
-  public SelectedRefinementDto or(ModelBoolean or) {
+  public SelectedRefinementDto or(Boolean or) {
     
     this.or = or;
     return this;
@@ -221,12 +220,12 @@ public class SelectedRefinementDto {
    * @return or
   **/
   @javax.annotation.Nullable
-  public ModelBoolean getOr() {
+  public Boolean getOr() {
     return or;
   }
 
 
-  public void setOr(ModelBoolean or) {
+  public void setOr(Boolean or) {
     this.or = or;
   }
 
@@ -337,6 +336,9 @@ public class SelectedRefinementDto {
       NavigationTypeDto.validateJsonElement(jsonObj.get("type"));
       if ((jsonObj.get("value") != null && !jsonObj.get("value").isJsonNull()) && !jsonObj.get("value").isJsonPrimitive()) {
         throw new IllegalArgumentException(String.format("Expected the field `value` to be a primitive type in the JSON string but got `%s`", jsonObj.get("value").toString()));
+      }
+      if ((jsonObj.get("source") != null && !jsonObj.get("source").isJsonNull()) && !jsonObj.get("source").isJsonPrimitive()) {
+        throw new IllegalArgumentException(String.format("Expected the field `source` to be a primitive type in the JSON string but got `%s`", jsonObj.get("source").toString()));
       }
   }
 

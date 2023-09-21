@@ -51,7 +51,7 @@ import com.groupbyinc.retailapi.JSON;
 /**
  * Request that should be populated to configure a search API call, made by the client on behalf of a shopper. Contains original request and information about facet for which extra keys requested.
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-09-20T17:52:51.787881444-04:00[America/Toronto]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-09-21T09:40:02.999263865-04:00[America/Toronto]")
 public class FacetSearchRequestDto {
   public static final String SERIALIZED_NAME_FACET = "facet";
   @SerializedName(SERIALIZED_NAME_FACET)

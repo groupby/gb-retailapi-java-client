@@ -49,7 +49,7 @@ import com.groupbyinc.retailapi.JSON;
 /**
  * The promotions applied to the product. A maximum of 10 values are allowed per product.
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-09-20T17:52:51.787881444-04:00[America/Toronto]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-09-21T09:40:02.999263865-04:00[America/Toronto]")
 public class Promotion {
   public static final String SERIALIZED_NAME_PROMOTION_ID = "promotionId";
   @SerializedName(SERIALIZED_NAME_PROMOTION_ID)

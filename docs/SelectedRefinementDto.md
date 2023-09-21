@@ -14,7 +14,7 @@ Refinement the shopper has selected for filtering.
 |**low** | **Double** | The lowest end or value of the range, if applicable. |  [optional] |
 |**high** | **Double** | The highest end or value of the range, if applicable. |  [optional] |
 |**source** | **String** | Field which is indicated that it is dynamic navigation. |  [optional] |
-|**or** | **ModelBoolean** | Navigation multiselect. Indicate that it is possibly to select more than one navigation value due to search request. |  [optional] |
+|**or** | **Boolean** | Navigation multiselect. Indicate that it is possibly to select more than one navigation value due to search request. |  [optional] |
 
 
 

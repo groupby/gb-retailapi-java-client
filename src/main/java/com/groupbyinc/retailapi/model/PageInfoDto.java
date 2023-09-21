@@ -49,7 +49,7 @@ import com.groupbyinc.retailapi.JSON;
 /**
  * Information regarding where the page of results starts and ends.
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-09-20T17:52:51.787881444-04:00[America/Toronto]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-09-21T09:40:02.999263865-04:00[America/Toronto]")
 public class PageInfoDto {
   public static final String SERIALIZED_NAME_RECORD_START = "recordStart";
   @SerializedName(SERIALIZED_NAME_RECORD_START)
