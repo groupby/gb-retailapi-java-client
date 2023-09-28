@@ -1,8 +1,8 @@
 # gb-retailapi-client
 
 GroupBy Retail
-- API version: 0.0
-  - Build date: 2023-09-21T09:51:40.117075497-04:00[America/Toronto]
+- API version: 0.0.0
+  - Build date: 2023-09-28T19:17:28.544199255-04:00[America/Toronto]
 
 GroupBy Retail API
 
@@ -40,7 +40,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>com.groupbyinc</groupId>
   <artifactId>gb-retailapi-client</artifactId>
-  <version>0.0</version>
+  <version>0.0.0</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -56,7 +56,7 @@ Add this dependency to your project's build file:
   }
 
   dependencies {
-     implementation "com.groupbyinc:gb-retailapi-client:0.0"
+     implementation "com.groupbyinc:gb-retailapi-client:0.0.0"
   }
 ```
 
@@ -70,7 +70,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/gb-retailapi-client-0.0.jar`
+* `target/gb-retailapi-client-0.0.0.jar`
 * `target/lib/*.jar`
 
 ## Getting Started
